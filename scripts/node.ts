@@ -7,7 +7,6 @@ const packageName = "six";
 await build({
   entryPoints: ["./mod.ts"],
   outDir: "./node",
-  cjs: false,
   shims: {},
   package: {
     name: `@${username}/${packageName}`,
