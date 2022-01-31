@@ -9,9 +9,9 @@ Deno.test("setIntervalX", async () => {
 
   await sleep(3.5);
 
-  // Kill the interval before it runs the specified amount of time
+  // Kill the interval before it runs the specified amount of times
   clearInterval(interval);
 
-  // The interval only get enough time to run 3 times
+  // The interval only got enough time to run 3 times
   assertEquals(counter, 3);
 });

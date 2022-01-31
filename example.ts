@@ -1,12 +1,3 @@
-# six
-
-> Set Interval X
-
-Limit the amount of times that `setInterval` will fire.
-
-## Usage
-
-```typescript
 import setIntervalX from "https://deno.land/x/six/mod.ts";
 import randomNumber from "https://deno.land/x/random_number/mod.ts";
 
@@ -29,8 +20,3 @@ async function checkAPIStatus() {
 }
 
 setIntervalX(checkAPIStatus, 2000, 15);
-```
-
-## Licence
-
-Released under the MIT Licence.
