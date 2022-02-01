@@ -7,7 +7,9 @@ const packageName = "six";
 await build({
   entryPoints: ["./mod.ts"],
   outDir: "./node",
-  shims: {},
+  shims: {
+    deno: true,
+  },
   package: {
     name: `@${username}/${packageName}`,
     version: Deno.args[0],
@@ -23,5 +25,5 @@ await build({
   },
 });
 
-await Deno.copyFile("license", "npm/license");
+await Deno.copyFile("license.md", "node/license");
 await Deno.copyFile("readme.md", "node/readme.md");
