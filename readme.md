@@ -34,7 +34,7 @@ Install
 npm install @ultirequiem/six # yarn install @ultirequiem/six
 ```
 
-Usage
+Usage, In Node.js you have the same API
 
 ```javascript
 import setIntervalX from "@ultirequiem/six";
