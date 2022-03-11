@@ -10,7 +10,7 @@ Limit the amount of times that `setInterval` will fire.
 
 ```typescript
 import setIntervalX from "https://deno.land/x/six/mod.ts";
-import randomNumber from "https://deno.land/x/random_number/mod.ts";
+import {randomNumber} from "https://deno.land/x/random_number/mod.ts";
 
 const API_URL = "https://leap-year.ultirequiem.repl.co";
 
