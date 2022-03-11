@@ -1,12 +1,12 @@
-import setIntervalX from "https://deno.land/x/six/mod.ts";
-import randomNumber from "https://deno.land/x/random_number/mod.ts";
+import { setIntervalX } from "https://deno.land/x/six/mod.ts";
+import { randomNumber } from "https://deno.land/x/random_number/mod.ts";
 
 const API_URL = "https://leap-year.ultirequiem.repl.co";
 
 async function checkAPIStatus() {
   const startTime = performance.now();
 
-  const randomYear = randomNumber({ min: 2000, max: 10_000, integer: true });
+  const randomYear = randomNumber({ min: 2000, max: 10_000 });
 
   const response = await fetch(`${API_URL}/${randomYear}`);
 

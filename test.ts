@@ -1,4 +1,4 @@
-import setIntervalX from "./mod.ts";
+import { setIntervalX } from "./mod.ts";
 import { assertEquals } from "https://deno.land/std@0.129.0/testing/asserts.ts";
 import { sleep } from "https://deno.land/x/sleep@v1.2.1/mod.ts";
 
