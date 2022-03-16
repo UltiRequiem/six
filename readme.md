@@ -16,14 +16,6 @@ import { setIntervalX } from "https://deno.land/x/six/mod.ts";
 
 ### Node
 
-Install
-
-```sh
-npm install @ultirequiem/six # yarn install @ultirequiem/six
-```
-
-Import
-
 ```javascript
 import { setIntervalX } from "@ultirequiem/six";
 ```
@@ -54,8 +46,6 @@ Not using ESM Modules 😔
 - [jsdelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/six)
 
 - [unpkg](https://unpkg.com/@ultirequiem/six)
-
-If you know any other option feel free to add it here!
 
 ## Licence
 
