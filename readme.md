@@ -1,51 +1,42 @@
 # six
 
+[![CI](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/ultirequiem/six/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/six)
+[![deno doc](https://doc.deno.land/badge.svg)](https://doc.deno.land/https/deno.land/x/six/mod.ts)
+
+![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fdep-count%2Fx%2Fsix%2Fmod.ts)
+![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Fupdates%2Fx%2Fsix%2Fmod.ts)
+[![Custom badge](https://img.shields.io/endpoint?url=https%3A%2F%2Fdeno-visualizer.danopia.net%2Fshields%2Flatest-version%2Fx%2Fsix%2Fmod.ts)](https://deno.land/x/six)
+
 > Set Interval X
 
 Limit the amount of times that `setInterval` will fire.
 
-## Usage
+## Support
 
-This packages works on Deno, Node.js, and Browser.
+Open an Issue, I will check it a soon as possible 👀
 
-### Deno
+If you want to hurry me up a bit
+[send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
 
-```typescript
-import { setIntervalX } from "https://deno.land/x/six/mod.ts";
-```
+Consider [supporting me on Patreon](https://patreon.com/UltiRequiem) if you like
+my work 🚀
 
-### Node
+Don't forget to start the repo ⭐
 
-```javascript
-import { setIntervalX } from "@ultirequiem/six";
-```
+## Versioning
 
-### Browser CDN
+We use [SemVer](http://semver.org) for versioning. For the versions available,
+see the [tags](https://github.com/UltiRequiem/six/tags).
 
-Using ESM Modules 🆙
+## Authors
 
-- [esm.sh](https://esm.sh)
+[Eliaz Bobadilla (a.k.a UltiRequiem)](https://ultirequiem.com) - Creator and
+Maintainer 💪
 
-```
-import {setIntervalX} from "https://esm.sh/@ultirequiem/six"
-```
-
-- [skypack](https://www.skypack.dev)
-
-```js
-import { setIntervalX } from "https://cdn.skypack.dev/@ultirequiem/six";
-```
-
-ESM.SH and Skypack have a lot of options, check their docs for optimization and
-more 🚀
-
-> While not recommend, any of this options can be used on Deno too!
-
-Not using ESM Modules 😔
-
-- [jsdelivr](https://cdn.jsdelivr.net/npm/@ultirequiem/six)
-
-- [unpkg](https://unpkg.com/@ultirequiem/six)
+See also the full list of
+[contributors](https://github.com/UltiRequiem/REPO/contributors) who
+participated in this project.
 
 ## Licence
 

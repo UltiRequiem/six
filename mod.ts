@@ -4,12 +4,11 @@
  * Limit the amount of times that setInterval will fire.
  *
  * @example
- * Fetching a REST Endpoint:
- * ```
+ * ```javascript
  * import { setInterval } from "https://deno.land/x/six/mod.ts";
  * import { randomNumber } from "https://deno.land/x/random_number/mod.ts";
  *
- * const API_URL = "https://leap-year.ultirequiem.repl.co";
+ * const API_URL = "https://leap.deno.dev";
  *
  * async function checkAPIStatus() {
  *    const randomYear = randomNumber({ min: 2000, max: 10_000});

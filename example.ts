@@ -1,5 +1,5 @@
-import { setIntervalX } from "https://deno.land/x/six/mod.ts";
-import { randomNumber } from "https://deno.land/x/random_number/mod.ts";
+import { setIntervalX } from "https://deno.land/x/six@v0.1.0/mod.ts";
+import { randomNumber } from "https://deno.land/x/random_number@0.1.1/mod.ts";
 
 const API_URL = "https://leap-year.ultirequiem.repl.co";
 
