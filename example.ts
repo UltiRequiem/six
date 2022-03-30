@@ -1,7 +1,7 @@
-import { setIntervalX } from "https://deno.land/x/six@v0.1.0/mod.ts";
+import { setIntervalX } from "./mod.ts";
 import { randomNumber } from "https://deno.land/x/random_number@0.1.1/mod.ts";
 
-const API_URL = "https://leap-year.ultirequiem.repl.co";
+const API_URL = "https://leap.deno.dev";
 
 async function checkAPIStatus() {
   const startTime = performance.now();
