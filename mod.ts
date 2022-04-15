@@ -5,7 +5,7 @@
  *
  * @example
  * ```javascript
- * import { setInterval } from "https://deno.land/x/six/mod.ts";
+ * import { setIntervalX } from "https://deno.land/x/six/mod.ts";
  * import { randomNumber } from "https://deno.land/x/random_number/mod.ts";
  *
  * const API_URL = "https://leap.deno.dev";
@@ -23,20 +23,20 @@
  * ```
  */
 export function setIntervalX(
-  callback: (...args: any[]) => any,
-  delay: number,
+  handler: (...args: any[]) => any,
+  timeout: number,
   repetitions: number,
   ...args: any[]
 ) {
   let x = 0;
 
-  const intervalID = setInterval(() => {
-    callback(...args);
+  const interval = setInterval(() => {
+    handler(...args);
 
     if (++x === repetitions) {
-      clearInterval(intervalID);
+      clearInterval(interval);
     }
-  }, delay);
+  }, timeout);
 
-  return intervalID;
+  return interval;
 }
