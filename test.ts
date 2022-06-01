@@ -1,5 +1,5 @@
 import { setIntervalX } from "./mod.ts";
-import { assertEquals } from "https://deno.land/std@0.137.0/testing/asserts.ts";
+import { assertEquals } from "https://deno.land/std@0.141.0/testing/asserts.ts";
 import { sleep } from "https://deno.land/x/sleep@v1.2.1/mod.ts";
 
 Deno.test("setIntervalX", async (context) => {
