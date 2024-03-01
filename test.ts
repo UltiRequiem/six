@@ -1,6 +1,6 @@
 import { setIntervalX } from "./mod.ts";
-import { assertEquals } from "https://deno.land/std@0.175.0/testing/asserts.ts";
-import { sleep } from "https://deno.land/x/sleep@v1.2.1/mod.ts";
+import { assertEquals } from "https://deno.land/std@0.218.0/testing/asserts.ts";
+import { sleep } from "https://deno.land/x/sleep@v1.3.0/mod.ts";
 
 Deno.test("setIntervalX", async (context) => {
   await context.step("Cutting it before time.", async () => {
