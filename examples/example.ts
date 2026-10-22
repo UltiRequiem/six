@@ -1,5 +1,5 @@
 import { setIntervalX } from "../src/index.js";
-import { randomNumber } from "https://deno.land/x/random_number@2.0.0/mod.ts";
+import { randomNumber } from "@ultirequiem/random-number";
 
 const API_URL = "https://leap.deno.dev";
 
