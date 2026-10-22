@@ -1,14 +1,14 @@
-// deno-lint-ignore-file no-explicit-any
+/* eslint-disable @typescript-eslint/no-explicit-any */
 
 /**
  * Limit the amount of times that setInterval will fire.
  *
  * @example
  * ```javascript
- * import { setIntervalX } from "https://deno.land/x/six/mod.ts";
- * import { randomNumber } from "https://deno.land/x/random_number/mod.ts";
+ * import { setIntervalX } from "@ultirequiem/six";
+ * import { randomNumber } from "@ultirequiem/random-number";
  *
- * const API_URL = "https://leap.deno.dev";
+ * const API_URL = "https://example.com/api/leap";
  *
  * async function checkAPIStatus() {
  *    const randomYear = randomNumber({ min: 2000, max: 10_000});
