@@ -1,6 +1,6 @@
 # six
 
-Set Interval X
+Limit how many times setInterval fires.
 
 [![npm](https://img.shields.io/npm/v/@ultirequiem/six?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/six?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
