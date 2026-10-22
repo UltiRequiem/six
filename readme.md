@@ -1,6 +1,9 @@
 # six
 
-[![codecov](https://codecov.io/gh/ultirequiem/six/branch/main/graph/badge.svg)](https://codecov.io/gh/ultirequiem/six)
+[![npm](https://img.shields.io/npm/v/@ultirequiem/six?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
+[![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/six?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
+[![CI](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml)
+[![codecov](https://codecov.io/gh/UltiRequiem/six/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/six)
 
 > Set Interval X
 
@@ -17,16 +20,16 @@ npm install @ultirequiem/six
 
 ## Usage
 
-ESM only: the same import works in Node.js, Bun and browsers.
+ESM only, types included: the same import works in Node.js, Bun and browsers.
 
 ## Support
 
-Open an Issue, I will check it a soon as possible 👀
+Open an Issue, I will check it as soon as possible 👀
 
 If you want to hurry me up a bit
 [send me a tweet](https://twitter.com/intent/tweet?text=%40UltiRequiem%20) 😆
 
-Don't forget to start the repo ⭐
+Don't forget to star the repo ⭐
 
 ## Versioning
 
