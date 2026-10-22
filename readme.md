@@ -1,11 +1,11 @@
 # six
 
+Set Interval X
+
 [![npm](https://img.shields.io/npm/v/@ultirequiem/six?logo=npm&color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
 [![npm downloads](https://img.shields.io/npm/dm/@ultirequiem/six?color=cb3837)](https://www.npmjs.com/package/@ultirequiem/six)
 [![CI](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml/badge.svg)](https://github.com/UltiRequiem/six/actions/workflows/ci.yaml)
 [![codecov](https://codecov.io/gh/UltiRequiem/six/graph/badge.svg)](https://codecov.io/gh/UltiRequiem/six)
-
-> Set Interval X
 
 Limit the amount of times that `setInterval` will fire.
 

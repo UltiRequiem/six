@@ -1,7 +1,7 @@
 {
   "name": "@ultirequiem/six",
   "version": "0.0.0-development",
-  "description": "Limit the amount of times that setInterval will fire.",
+  "description": "Limit how many times setInterval fires.",
   "type": "module",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
@@ -18,8 +18,11 @@
     "node": ">=20"
   },
   "keywords": [
-    "time",
-    "setInterval"
+    "setinterval",
+    "timer",
+    "repeat",
+    "esm",
+    "typescript"
   ],
   "license": "MIT",
   "homepage": "https://ulti.js.org/six",
