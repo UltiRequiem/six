@@ -168,7 +168,7 @@ importers:
     dependencies:
       '@ultirequiem/random-number':
         specifier: ^3.0.1
-        version: 3.0.2
+        version: 3.0.3
       '@ultirequiem/six':
         specifier: ^1.0.0
         version: 1.0.0
@@ -531,8 +531,8 @@ packages:
     resolution: {integrity: sha512-SB8xqipSzZHUePCCLNeYxqnxq83X61/qzNhjQGbTfjxGZIeOEP7tBgWYX05Tcd6CgE02WdTJnh5b8kMZJ/+bnQ==}
     engines: {node: ^18.18.0 || ^20.9.0 || >=21.1.0}
 
-  '@ultirequiem/random-number@3.0.2':
-    resolution: {integrity: sha512-E4+DPjDDXv/AjGHLd1k9ndKX2MdD6hHB5mUMV1aZctreoszzIeMCI+cGrIbHgJjdIw8wOVFa3Iuu8ysaky2NHg==}
+  '@ultirequiem/random-number@3.0.3':
+    resolution: {integrity: sha512-aHP81QnVTwziHNq1l6HUFlVE1uOqGV6A2x2PNIn+QYBN+BXqx1eD89bUCz887an8qy3SSPf/7dKJBXUFTyd3Vg==}
     engines: {node: '>=20'}
 
   '@ultirequiem/six@1.0.0':
@@ -1657,7 +1657,7 @@ snapshots:
       '@typescript-eslint/types': 8.72.1
       eslint-visitor-keys: 5.0.1
 
-  '@ultirequiem/random-number@3.0.2': {}
+  '@ultirequiem/random-number@3.0.3': {}
 
   '@ultirequiem/six@1.0.0': {}
 
